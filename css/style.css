@@ -12,7 +12,10 @@ body{
 
 
 /*-------HEADER-------*/
-header {
+
+/*?dejo comentado lo de abajo porque todavía no termino de entender bien bootstrap, y quiero copiar algunas cositas del nav que habia hecho anteriormente al nav que agregué ahora de bootstrap*/
+
+/*header {
     background-color: rgba(224, 224, 217, 0.5);
     padding: 20px;
     width: 100%; 
@@ -44,6 +47,30 @@ header nav ul li a {
     color: black;
     font-size: 20px;
     font-weight: 700;
+} */
+
+/*ESTILOS CON BOOTSTRAP*/
+.navbar-brand {
+    font-size: 48px;
+    font-style: oblique;
+    letter-spacing: 8px;
+    padding: 20px;
+
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 20px 20px 20px;
+    color: black;
+    font-weight: 40px;
+}
+
+
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: 50px;
 }
 
 
