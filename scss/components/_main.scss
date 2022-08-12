@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+    height: 100%;
+    section{
+        div{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px;
+        div{
+        width: 350px;
+        height: 375px;
+        margin-bottom: 20px;
+        text-align: center;
+        background-color: rgba(240, 238, 238, 0.726);
+        display: inline-block;
+        box-shadow: 6px 10px 20px -7px rgba(0,0,0,0.82);
+        -webkit-box-shadow: 6px 10px 20px -7px rgba(0,0,0,0.82);
+        -moz-box-shadow: 6px 10px 20px -7px rgba(0,0,0,0.82);
+        transition: 2s;
+        img{
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        }
+        p{
+        padding: 15px;
+        font-size: 18px;
+        &:hover{
+            transform: scale(1.1);
+        }
+        }
+        }
+        }
+    }
+}
