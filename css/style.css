@@ -7,7 +7,33 @@ body {
   padding: 0;
   box-sizing: border-box; }
 
-/*---INDEX---*/
+/*-----HEADER-----*/
+.container-fluid {
+  background-color: #f4f1ec; }
+
+.navbar-brand {
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: 8px;
+  padding: 15px; }
+
+.nav-item {
+  display: inline-block;
+  margin: 20px 20px 20px;
+  color: #454543;
+  font-weight: 40px; }
+
+.nav-link {
+  color: #454543;
+  font-size: 12px;
+  font-weight: 400; }
+
+@media screen and (max-width: 699px) {
+  .album > div {
+    margin: 10px; } }
+
+/*-----MAIN-----*/
+/*--INDEX--*/
 main {
   width: 100%;
   height: 100%; }
@@ -17,8 +43,8 @@ main {
     flex-wrap: wrap;
     margin: 20px; }
     main section div div {
-      width: 350px;
-      height: 375px;
+      width: 318px;
+      height: 475px;
       margin-bottom: 20px;
       text-align: center;
       background-color: rgba(240, 238, 238, 0.726);
@@ -26,41 +52,29 @@ main {
       box-shadow: 6px 10px 20px -7px rgba(0, 0, 0, 0.82);
       -webkit-box-shadow: 6px 10px 20px -7px rgba(0, 0, 0, 0.82);
       -moz-box-shadow: 6px 10px 20px -7px rgba(0, 0, 0, 0.82);
-      transition: 2s; }
+      transition: 400ms; }
+      main section div div:hover {
+        transform: scale(1.1); }
       main section div div img {
-        width: 350px;
-        height: 300px;
-        object-fit: cover; }
+        width: 318px;
+        height: 424px; }
       main section div div p {
         padding: 15px;
-        font-size: 18px; }
-        main section div div p:hover {
-          transform: scale(1.1); }
+        font-size: 12px;
+        font-weight: 50px;
+        line-height: 34px;
+        letter-spacing: 4px;
+        text-align: center; }
 
-/*---ACERCA DE MI---*/
-.presentacion {
-  display: flex;
-  justify-content: center; }
-
-.anna-retrato {
-  width: 320px;
-  height: 480px;
-  margin: 40px 20px 20px 40px; }
-
-.descripcion {
-  margin: 40px;
-  display: flex;
-  align-items: center; }
-
-/*---BLOG---*/
-/*---BODAS---*/
-/*---RETRATOS---*/
+/*--BLOG--*/
+/*--BODAS--*/
+/*--RETRATOS--*/
+/*-----FOOTER-----*/
 footer {
-  background-color: rgba(224, 224, 217, 0.5);
+  background-color: #f4f1ec;
   display: flex;
   justify-content: center; }
-
-footer img {
-  margin: 10px;
-  width: 40px;
-  height: 40px; }
+  footer div a img {
+    margin: 20px;
+    width: 25px;
+    height: 25px; }

@@ -1,4 +1,7 @@
-/*---INDEX---*/
+@import "./mediaquerie"; 
+/*-----MAIN-----*/
+
+/*--INDEX--*/
 main {
     width: 100%;
     height: 100%;
@@ -9,8 +12,8 @@ main {
         flex-wrap: wrap;
         margin: 20px;
         div{
-        width: 350px;
-        height: 375px;
+        width: 318px;
+        height: 475px;
         margin-bottom: 20px;
         text-align: center;
         background-color: rgba(240, 238, 238, 0.726);
@@ -18,56 +21,59 @@ main {
         box-shadow: 6px 10px 20px -7px rgba(0,0,0,0.82);
         -webkit-box-shadow: 6px 10px 20px -7px rgba(0,0,0,0.82);
         -moz-box-shadow: 6px 10px 20px -7px rgba(0,0,0,0.82);
-        transition: 2s;
+        transition: 400ms;
+        &:hover{
+            transform:scale(1.1);
+        }
         img{
-        width: 350px;
-        height: 300px;
-        object-fit: cover;
+        width: 318px;
+        height: 424px;
+        // object-fit: cover;
         }
         p{
         padding: 15px;
-        font-size: 18px;
-        &:hover{
-            transform: scale(1.1);
-        }
+        font-size: 12px;
+        font-weight: 50px;
+        line-height: 34px;
+        letter-spacing: 4px;
+        text-align: center;        
         }
         }
         }
     }
 }
 
-/*---ACERCA DE MI---*/
-.presentacion{
-    display: flex;
-    justify-content: center;
-}
-
-.anna-retrato{
-    width: 320px;
-    height: 480px;
-    margin: 40px 20px 20px 40px;
-}
-
-.descripcion{
-    margin: 40px;
-    display: flex;
-    align-items: center;
-}
-
-
-
-
-
-/*---BLOG---*/
+// /*--ACERCA DE MI--*/
+// main{
+//     section{
+//         display: flex;
+//         justify-content: center;
+//         img{
+//             width: 320px;
+//             height: 480px;
+//             margin: 40px 20px 20px 40px;
+//         }
+//         p{
+//             margin: 40px;
+//             display: flex;
+//             align-items: center;
+//         }
+//     }
+// }
 
 
 
 
-
-/*---BODAS---*/
+/*--BLOG--*/
 
 
 
 
 
-/*---RETRATOS---*/
+/*--BODAS--*/
+
+
+
+
+
+/*--RETRATOS--*/
